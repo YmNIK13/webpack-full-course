@@ -11,3 +11,47 @@
 Собрать приложение
 
 
+## Плагины
+
+### `html-webpack-plugin`
+Работа с html шаблоном и подключение всех сгенеренных скриптов
+
+Установка
+
+    npm i -D html-webpack-plugin
+
+Использование, подключаем в `webpack.config.js`
+```js
+const HtmlWebPackPlugin = require('html-webpack-plugin')
+module.exports = {
+    ...
+    plugins: [
+        new HtmlWebPackPlugin({
+            title: 'Webpack generate',
+            template: './src/index.html'
+        })
+    ]
+}
+```
+
+
+
+### `clean-webpack-plugin`
+Очистка старых скриптов и стилей
+
+    npm i -D clean-webpack-plugin
+
+Использование, подключаем в `webpack.config.js`
+```js
+const HtmlWebPackPlugin = require('html-webpack-plugin')
+module.exports = {
+    ...
+    plugins: [
+        new HtmlWebPackPlugin({
+            title: 'Webpack generate',
+            template: './src/index.html'
+        })
+    ]
+}
+```
+
