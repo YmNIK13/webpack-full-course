@@ -5,11 +5,9 @@
 [![Основное видео](http://img.youtube.com/vi/eSaF8NXeNsA/0.jpg)](https://www.youtube.com/watch?v=eSaF8NXeNsA "Основное видео")
 
 ## Основные команды
-
-### `npx webpack`
-
-Собрать приложение
-
+`npx webpack` - Собрать приложение
+`npm run dev` - Собрать в режиме разработки 
+`npm run build` - Собрать в режиме продукта
 
 ## Плагины
 
